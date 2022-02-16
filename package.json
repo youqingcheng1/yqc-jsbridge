@@ -4,7 +4,7 @@
   "description": "封装sdk",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lib:dev":"vite serve test",
+    "lib:dev":"vite serve test --host",
     "lib:build":"rollup --config",
     "docs:dev":"vuepress dev docs",
     "docs:build":"vuepress build docs",
